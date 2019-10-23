@@ -1,1 +1,150 @@
 /* You can add global styles to this file, and also import other style files */
+
+.navbar{
+    margin: 0%;
+    padding: 0%;
+}
+
+#rowimagen{
+    background-image: url('./assets/img/casa.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    position: relative;
+}
+
+#rowprincipal{
+    /* width: 100%; */
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* app-home */
+#titulo{
+    /* align-items: center;
+    align-content: center; */
+    letter-spacing: 0.05em;
+}
+
+#Clasetexto{
+    padding: 50px 100px;
+    height: auto;
+    position: absolute;
+    top: 8;
+    width: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#Clasetexto h2{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    font-size: 48px;
+    color: black;
+}
+
+#flecha{
+    margin: 0%;
+    padding: 0;
+    position: absolute;
+    top: 35%;
+    font-size: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* app-section-image */
+#sectioTituloServ{
+    position: relative;
+    height: 15vh;
+}
+
+#tituloServ{
+    position: absolute;
+    align-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 58px;
+}
+
+#rayita{
+    background: orange;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translateX(-50%);
+    height: 15px;
+    width: 95px;
+    border-radius: 5%;
+}
+
+.imagenesList{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    position: relative;
+}
+
+.imagenesList h2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 24px;
+    margin: 70px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imagenesList>div>div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.imagenesList p {
+    /* position: absolute; */
+    justify-content: space-between;
+    font-size: 16px;
+    z-index: -1;
+    color: rgb(185, 113, 113);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#divIMG1{
+    width: 32%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenesList>div>div>span>img {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    z-index: -3;
+}
+
+#tt1,#tt3,#tt2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#t1,#t2,#t3{
+    width: 75%;
+}
+
+
+
+/* .img{
+    width: 75px;
+    height: auto;
+} */
+
